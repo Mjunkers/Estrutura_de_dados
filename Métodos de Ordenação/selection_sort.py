@@ -13,3 +13,18 @@ def funcao_selection_sort(lista):
         lista[min] = temp
     
     return print(lista)
+
+
+import random
+from random import randint
+random.seed(0)
+
+array =[]
+
+for i in range(1, 100):
+    x = randint(1, 1000)
+    print(x)
+    array.append(x)
+
+print("Selection:")
+funcao_selection_sort(array)

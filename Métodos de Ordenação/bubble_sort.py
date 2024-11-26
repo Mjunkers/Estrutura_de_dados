@@ -13,3 +13,18 @@ def funcao_bubble_sort(lista):
             break
 
     return print(lista)
+
+
+import random
+from random import randint
+random.seed(0)
+
+array =[]
+
+for i in range(1, 100):
+    x = randint(1, 1000)
+    print(x)
+    array.append(x)
+
+print("Bubble:")
+funcao_bubble_sort(array)
